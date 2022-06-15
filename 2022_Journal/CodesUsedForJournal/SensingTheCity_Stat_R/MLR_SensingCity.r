@@ -1,15 +1,15 @@
 #Renaming the dataset
-data = `Compiled_Part1&Part2_2`
-
+data = X20220613_DATAforSAR
+data
 #----Hierarchical Regression----
 #Establsih first model in hierarchical regression
-mod3 = lm(Very.Negative ~ sky, data = data)
+mod3 = lm(Neg.0_Pos.1 ~ Sky, data = data)
 mod3
-plot(data$sky, data$Very.Negative)
-abline(a = 0.24616, b = 0.07029, col = 'red')
+plot(data$Sky, data$Neg.0_Pos.1)
+abline(a = 1.063, b = -1.357, col = 'red')
 summary(mod3)
 #Establish second model in hierarchical regression
-mod4 = lm(Very.Negative ~ wall+building+fence+tree+plant+grass+road+sidewalk+streetlight+signboard+person+bicycle+car+truck+motorcycle, data = data)
+mod4 = lm(Neg.0_Pos.1 ~ Sky+Wall+Building+Fence+Tree+Road+Sidewalk+Streetlight+Signboard+Person+Bicycle+MotorVehicle, data = data)
 mod4
 
 #Summarize models
