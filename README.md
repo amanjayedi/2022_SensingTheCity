@@ -1,1 +1,6 @@
 # 2022_SensingTheCity
+
+
+Understanding the relationships between individuals and the urban streetscape is an essential component of sustainable city planning. However, analysis of these relationships involves accounting for a complex mix of human behavior, perception, as well as geospatial context. In this context, a comprehensive framework for predicting preferred streetscape characteristics utilizing deep learning and geospatial techniques is proposed. Geotagged social media posts and street view imagery are employed to account for individual sentiment and geospatial context. Natural Language Processing (NLP) and computer vision (CV) are then used to infer sentiment and model the visual environment within which individuals make posts to social media. An application of the developed framework is provided using Instagram posts and Google Street View imagery of the urban environment. A spatial analysis is conducted to assess the extent to which urban attributes correlate with the sentiment of social media postings. The results shed light on sustainable streetscape planning by focusing on the relationship between users and the built environment in a complex urban setting. Finally, limitations of the developed methodology as well as future directions are discussed.
+
+http://amanjayedi.com/wp-content/uploads/2023/03/1_Framework.png
